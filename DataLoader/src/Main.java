@@ -15,6 +15,7 @@ public class Main {
 		getServer( connection );
 		System.out.println("Done");
 		System.out.println("Done2");
+		System.out.println("Done3");
 	}
 	
 	private static Connection getConnection( String databaseUrl, String userName, String password ) throws SQLException, ClassNotFoundException {
