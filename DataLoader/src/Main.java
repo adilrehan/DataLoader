@@ -13,7 +13,7 @@ public class Main {
 		//Connection connection = getConnection("jdbc:sqlserver://ucmdb.demo.hpadvantageinc.com", "ud_reader", "*****");
 		Connection connection = getConnection("jdbc:sqlserver://16.77.8.187;databaseName=SMDB", "xrp", "Passw0rd123$");
 		getServer( connection );
-	
+		System.out.println("Done");
 	}
 	
 	private static Connection getConnection( String databaseUrl, String userName, String password ) throws SQLException, ClassNotFoundException {
