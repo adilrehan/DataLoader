@@ -14,6 +14,7 @@ public class Main {
 		Connection connection = getConnection("jdbc:sqlserver://16.77.8.187;databaseName=SMDB", "xrp", "Passw0rd123$");
 		getServer( connection );
 		System.out.println("Done");
+		System.out.println("Done2");
 	}
 	
 	private static Connection getConnection( String databaseUrl, String userName, String password ) throws SQLException, ClassNotFoundException {
